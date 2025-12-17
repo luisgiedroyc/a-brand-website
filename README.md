@@ -1,57 +1,20 @@
-# А! - Промо-сайт бренда интерьерного света
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Промо-сайт бренда "А!" - цифровая арт-инсталляция с минималистичным дизайном в стиле брутализма.
+# Run and deploy your AI Studio app
 
-## Особенности
+This contains everything you need to run your app locally.
 
-- **Интерактивная сетка букв** - слова-триггеры встроены в фоновый шум
-- **Горизонтальная навигация** - панорамирование вместо скролла
-- **3D модели продуктов** - WebGL/Three.js для визуализации светильников
-- **Адаптивный дизайн** - поддержка мобильных устройств
+View your app in AI Studio: https://ai.studio/apps/drive/1KTpiw4TYNoQjAUatxjdl_87WYmxjcLni
 
-## Технологии
+## Run Locally
 
-- HTML5
-- CSS3 (Grid, Flexbox)
-- JavaScript (ES6+)
-- Three.js (WebGL)
+**Prerequisites:**  Node.js
 
-## Структура проекта
 
-```
-├── index.html      # Главная страница
-├── styles.css      # Стили
-├── script.js       # Логика и интерактивность
-├── models/         # 3D модели продуктов (.glb)
-└── README.md       # Документация
-```
-
-## Установка и запуск
-
-1. Клонируйте репозиторий:
-```bash
-git clone https://github.com/yourusername/your-repo.git
-```
-
-2. Откройте `index.html` в браузере
-
-Или используйте локальный сервер:
-```bash
-# Python
-python -m http.server 8000
-
-# Node.js
-npx serve
-```
-
-## Использование
-
-- Наведите курсор на буквы в сетке - они "замирают"
-- Найдите слова "КОНЦЕПЦИЯ" или "ПРОДУКТЫ" среди букв
-- Кликните на слово для перехода на соответствующий экран
-- Используйте хлебные крошки для навигации назад
-
-## Лицензия
-
-Все права защищены © 2024
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
